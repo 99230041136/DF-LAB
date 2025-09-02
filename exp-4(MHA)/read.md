@@ -45,7 +45,8 @@ Click the "Analyze" button to get a parsed, easy-to-read report.
 <br>
 <br>
 
-<img width="1900" height="807" alt="Screenshot 2025-09-01 220440" src="https://github.com/user-attachments/assets/489179e5-63ac-43a5-aae4-f9335a73af15" />
+<img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/MH%206.png?raw=true" width="800" alt="MH 6 Screenshot" />
+
 
 ### Step 3: Analyze The Report
 - This is the most critical step. In the analyzer's report, look for the SPF, DKIM, and DMARC results.
@@ -59,7 +60,7 @@ Click the "Analyze" button to get a parsed, easy-to-read report.
 - Check DKIM Status: DKIM Alignment passed, but DKIM Authenticated failed (❌). This is a critical finding and indicates a problem with the email's digital signature.
 <br>
 <br>
-<img width="1893" height="888" alt="Screenshot 2025-09-01 220517" src="https://github.com/user-attachments/assets/b263cf1b-b74f-436b-98c8-4e5a80d04cb8" />
+<img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/MH%208.png?raw=true" width="800" alt="MH 8 Screenshot" />
 
 <br>
 <br>
