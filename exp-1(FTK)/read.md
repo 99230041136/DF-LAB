@@ -23,7 +23,9 @@
 - In the top menu bar, click **File → Capture Memory...** from the dropdown list.
   <br>
 <br>
-<img width="1119" height="1004" alt="Screenshot 2025-09-01 153504" src="https://github.com/user-attachments/assets/348fcee4-1727-419f-89a6-cd1842bed969" />
+<img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/F%202.png?raw=true" width="800" alt="F 2 Screenshot" />
+
+
 
 <br>
 <br>
@@ -82,7 +84,7 @@ A dialog box will appear where you configure where and how the memory will be sa
 
 <br>
 <br>
-<img width="1106" height="1076" alt="Screenshot 2025-09-01 153832" src="https://github.com/user-attachments/assets/830d23cc-5285-4326-8478-fddf871edc54" />
+<img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/F%202.png?raw=true" width="800" alt="F 2 Screenshot" />
 
 
 <br>
@@ -101,7 +103,8 @@ A window will appear asking you to choose the source type:
 <br>
 <p align="center">
 
-<img width="722" height="607" alt="Screenshot 2025-09-01 153924" src="https://github.com/user-attachments/assets/22357840-7ba3-4c0c-b42b-806960cae99d" />
+<img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/F%203.png?raw=true" width="800" alt="F 3 Screenshot" />
+
 
 </p>
 <br>
@@ -124,7 +127,8 @@ A window will appear asking you to choose the source type:
   <br>
 <br>
 <p align="center">
-<img width="1526" height="991" alt="Screenshot 2025-09-01 154019" src="https://github.com/user-attachments/assets/406a4481-a3bb-4015-8feb-faaa22178f2c" />
+<img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/F%204.png?raw=true" width="800" alt="F 4 Screenshot" />
+
 
 
 <br>
@@ -137,7 +141,8 @@ A window will appear asking you to choose the source type:
 <br>
 <br>
 <p align="center">
-<img width="1500" height="1015" alt="Screenshot 2025-09-01 154146" src="https://github.com/user-attachments/assets/9f1dc93f-77b7-43dd-8cb2-cc3cb932aa0c" />
+<img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/F%205.png?raw=true" width="800" alt="F 5 Screenshot" />
+
 
 </p>
 <br>
@@ -178,11 +183,10 @@ A window will appear asking you to choose the source type:
   <br>
   <br>
   <p align="center">
- <img width="1173" height="651" alt="Screenshot 2025-09-02 073147" src="https://github.com/user-attachments/assets/019d7f00-be4a-461c-8901-a56cdd68696e" />
+<img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/F%207.png?raw=true" width="800" alt="F 7 Screenshot" />
 
 
-  <img width="1133" height="626" alt="Screenshot 2025-09-02 073200" src="https://github.com/user-attachments/assets/77107c48-fe69-4def-96fe-360471943ec7" />
-
+<img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/F%2010.png?raw=true" width="800" alt="F 10 Screenshot" />
 
 </p>
 <br>
