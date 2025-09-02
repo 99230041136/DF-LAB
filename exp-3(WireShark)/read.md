@@ -23,7 +23,8 @@
  <br>
    <br>
   <p align="center">
-  <img width="1919" height="992" alt="Screenshot 2025-09-01 215326" src="https://github.com/user-attachments/assets/81a35d1b-1c01-465b-9b8e-011a158ce266" />
+  <img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/WS%203.png?raw=true" width="800" alt="WS 3 Screenshot" />
+
 
  </p>
   <br>
@@ -60,7 +61,8 @@
  <br>
    <br>
   <p align="center">
-<img width="1919" height="981" alt="Screenshot 2025-09-01 215617" src="https://github.com/user-attachments/assets/51ac916e-49d0-4b24-8172-b512c9b39f4f" />
+<img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/WS%205.png?raw=true" width="800" alt="WS 5 Screenshot" />
+
 
  </p>
   <br>
