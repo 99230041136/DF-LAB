@@ -13,7 +13,8 @@
   <br>
    <br>
   <p align="center">
-  <img width="1907" height="988" alt="Screenshot 2025-09-01 214440" src="https://github.com/user-attachments/assets/da01f34c-37d7-4c02-9450-3cb550cf664d" />
+  <img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/WS%202.png?raw=true" width="800" alt="WS 2 Screenshot" />
+
 
   </p>
   <br>
