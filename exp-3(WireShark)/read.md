@@ -81,7 +81,8 @@ HTML Form URL Encoded
  <br>
    <br>
   <p align="center">
- <img width="1785" height="916" alt="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/WS%207.png" />
+ <img src="https://github.com/Harini-Kannan1802/image/blob/0c208522e4e401df1c3954a5b57200e77d51f0d7/WS%207.png?raw=true" width="800" alt="WS 7 Screenshot" />
+
 
  </p>
   <br>
