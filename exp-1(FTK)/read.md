@@ -13,7 +13,7 @@
 <br>
 <br>
 
-![WhatsApp Image 2025-08-29 at 21 53 56_496e4388](https://github.com/srihari2082005-ctrl/img-1/blob/84fe5d7cd6694fe2314ec49d14a97b812cb32c83/WhatsApp%20Image%202025-09-02%20at%2007.58.48_388a9f70.jpg)
+![hs ftk](https://raw.githubusercontent.com/Harini-Kannan1802/image/c3a3537e80a0c82cedb961c1c559727155c7968a/hs%20ftk.jpg)
 
  
 <br>
