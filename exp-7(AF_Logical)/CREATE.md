@@ -1,15 +1,24 @@
-# Ex.No.8 — Detect Hidden Data in Images Using StegExpose
+# 📱 Ex.No.7 — Use AFLogical OSE to Extract Data from an Android Device
 
 ## Aim
 
-To detect hidden data in image files using **StegExpose**, a steganography detection and analysis tool.
+To perform a logical extraction of user data (contacts, SMS, call logs, calendars, app data where possible) from an Android device using **AFLogical OSE**, and preserve the extracted files for forensic analysis.
+
 
 
 
 ## Description
 
-**StegExpose** is a Java-based forensic tool used to detect steganography in images.
-It analyzes statistical features of image files to identify traces of hidden data and provides a **suspicion score** for each analyzed image.
+**AFLogical OSE (Open Source Edition)** is a forensic tool used for logical acquisition of Android devices.  
+It extracts **user-level artifacts** such as:
+- Contacts  
+- SMS  
+- Call history  
+- Calendar entries  
+- Browser data  
+- Some application data  
+
+This process is **non-destructive** — meaning no permanent changes are made to the phone. It works via **ADB (Android Debug Bridge)** to export data to a forensic workstation for safe analysis.
 
 ---
 
@@ -18,39 +27,30 @@ It analyzes statistical features of image files to identify traces of hidden dat
 * **Operating System:** Windows or Linux
 * **Software Needed:**
 
-  * Java Runtime Environment (JRE)
-  * StegExpose tool (JAR file)
-  * Sample image files (with and without hidden data)
-
+- Android device with USB debugging enabled  
+- **AFLogical OSE** tool installed on forensic workstation  
+- **ADB drivers** installed on system  
+- USB cable for connection  
+- Proper chain of custody documentation  
 ---
 
 ## Steps to Detect Hidden Data Using StegExpose
 
-### 1. Open Command Prompt
-
-* Press `Win + R`, type `cmd`, and hit **Enter**.
-* Navigate to the folder where **StegExpose.jar** is stored.
-
-```
-cd path\to\StegExpose
-```
+1. Connect the Android device to the forensic workstation via USB.  
+2. Ensure **USB Debugging** is enabled on the device.  
+3. Launch **AFLogical OSE** on the workstation.  
+4. Select the device from the detected list.  
+5. Choose the data types to extract (Contacts, SMS, Call Logs, etc.).  
+6. Start extraction → the tool will pull logical data using ADB.  
+7. Save the output `.zip` or `.csv` files to a secure analysis folder.  
+8. Compute **hash values (SHA-256)** for the extracted data to ensure integrity.  
+9. Document the extraction and store evidence properly.
 
 **Screenshot:**
 ![Experiment 7](https://raw.githubusercontent.com/Harini-Kannan1802/image/c02b7c54a412aff3b80fff0066db09ea229f5281/exp%207(1).png)
 
 
 ---
-
-### 2. Run StegExpose
-
-Use the following command to analyze your images:
-
-```
-java -jar StegExpose.jar folderpath
-```
-
-* Replace `folderpath` with the location of your image files.
-* StegExpose will scan all images and display their **suspicion score**.
 
 **Screenshot:**
 ![Experiment 7 - 2](https://raw.githubusercontent.com/Harini-Kannan1802/image/c02b7c54a412aff3b80fff0066db09ea229f5281/exp%207(2).png)
@@ -66,43 +66,32 @@ java -jar StegExpose.jar folderpath
 **Screenshot:**
 ![Experiment 7 - 3](https://raw.githubusercontent.com/Harini-Kannan1802/image/c02b7c54a412aff3b80fff0066db09ea229f5281/exp%207(3).png)
 
----
-
-### 4. Export Report (Optional)
-
-You can export the results to a `.csv` file for record-keeping:
-
-```
-java -jar StegExpose.jar folderpath -a report.csv
-```
-
-This generates a file named `report.csv` containing detection results.
 
 **Screenshot:**
 ![Experiment 7 - 4](https://raw.githubusercontent.com/Harini-Kannan1802/image/c02b7c54a412aff3b80fff0066db09ea229f5281/exp%207(4).png)
 
 ---
 
-## Observations
+## 📊 Output
+The extracted data includes:
+- `contacts.csv`
+- `sms.csv`
+- `calllog.csv`
+- `browser.csv`
+- `calendar.csv`
 
-| Image Name  | Suspicion Score | Hidden Data Detected |
-| ----------- | --------------- | -------------------- |
-| sample1.jpg | 0.12            | No                   |
-| sample2.jpg | 0.86            | Yes                  |
-| sample3.jpg | 0.45            | Possible             |
-
+Each file contains readable text data suitable for forensic review.
 ---
 
 ## Result
 
-Hidden data in images were successfully detected using **StegExpose**, and the analysis results were recorded for further investigation.
+AFLogical OSE successfully performed **logical extraction** of Android user data.  
+Contacts, messages, call logs, and calendar details were safely pulled to the forensic workstation and verified with SHA-256 hash values.
 ![Experiment 7 - 5](https://raw.githubusercontent.com/Harini-Kannan1802/image/c02b7c54a412aff3b80fff0066db09ea229f5281/exp%207(5).png)
 
 ![Experiment 7 - 6](https://raw.githubusercontent.com/Harini-Kannan1802/image/c02b7c54a412aff3b80fff0066db09ea229f5281/exp%207(6).png)
 ---
 
 ## References
-
-* StegExpose GitHub Repository: [https://github.com/b3dk7/StegExpose](https://github.com/b3dk7/StegExpose)
-* Digital Forensics Tools Documentation
-
+- AFLogical OSE GitHub: [https://github.com/nowsecure/aflogical](https://github.com/nowsecure/aflogical)
+- Android ADB Documentation: [https://developer.android.com/studio/command-line/adb](https://developer.android.com/studio/command-line/adb)
